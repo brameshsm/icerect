@@ -643,9 +643,4 @@ ul li {
   #logo-right{
     width: 120px !important;
   }
-  #logo-center{
-    width: 400px !important;
-    padding-left: 20px;
-    clear: both !important;
-  }
 }
