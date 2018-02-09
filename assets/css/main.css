@@ -638,9 +638,13 @@ ul li {
   }
   #logo-left{
     width: 130px !important;
-    padding-left: 20px;
+    margin-right:60px;
   }
   #logo-right{
-    width: 120px !important;
+    margin-top: 20px;
+    width: 200px !important;
+  }
+  #logo-center{
+    width: 180px !important;
   }
 }
