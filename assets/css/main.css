@@ -17,6 +17,7 @@ body {
   font-weight: 300;
   line-height: 1.6;
   position: relative;
+  background-color: #FFF8F3;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -34,6 +35,17 @@ h4,
 h5,
 h6 {
   font-weight: 700;
+}
+th, td {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 40px;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+  background-color: #DDDDDD;
 }
 
 p {
@@ -246,7 +258,7 @@ ul li {
   margin: 0;
 }
 .navbar-custom .navbar-nav > li > a {
-  color: blue;
+  color: #65C18C;
   text-transform: uppercase;
   font-size: 15px;
   font-weight: 900;
@@ -254,7 +266,7 @@ ul li {
 }
 .navbar-custom .navbar-nav > li > a:focus, .navbar-custom .navbar-nav > li > a:hover {
   background-color: transparent;
-  border-color: blue;/*rgba(255, 255, 255, 0.5);*/
+  border-color: #65C18C;/*rgba(255, 255, 255, 0.5);*/
 }
 .navbar-custom .navbar-nav > .active > a {
   border-color: rgba(255, 255, 255, 0.5);
@@ -283,8 +295,8 @@ ul li {
 
 .site-branding {
   float: left;
-  margin-top: 0;
-  margin-left: 10px;
+  margin-top: 13px;
+  margin-left: 1px;
 }
 .site-branding .logo {
   color: black;
@@ -389,6 +401,7 @@ ul li {
 .about figure {
   margin-bottom: 25px;
 }
+
 
 /*
  * 6.2 Section: Facts
