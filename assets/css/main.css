@@ -52,10 +52,10 @@ p {
   margin: 0 0 30px;
 }
 
-ul li {
+/* ul li {
   font-weight: 700;
   margin-bottom: 10px;
-}
+} */
 
 .custom-list-icon, .list-arrow-right {
   list-style-type: none;
