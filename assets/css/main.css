@@ -19,17 +19,18 @@ body {
   position: relative;
   -webkit-font-smoothing: antialiased;
   background-color: #DAEAF1;
-  
+
 }
 @media screen and (min-width: 600px) {
   .Mobile {
-    border-radius: 15% 15%;
-    padding: 120px;
+    border-radius: 5% 5%;
+    padding: 20px;
     box-shadow: -12px -12px 10px 2px rgb(175, 122, 179, 0.2);
   }
   .s{
     border-radius: 15% 15%;
-    padding: 120px;
+    padding: 50px;
+
     box-shadow: -12px -12px 10px 2px rgb(175, 122, 179, 0.2);}
 }
 @media screen and (max-width: 600px){
